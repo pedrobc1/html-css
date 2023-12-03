@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{font-family: 'Montserrat', sans-serif;}
+.barramenu{background-color: rgb(32, 71, 116);
+  width: 100%;
+height: 75px;
+color: white;
+font-size: 3.5em;}
+h2{color: rgb(57, 57, 139);}
+.botaomenu{ border: none;
+  text-decoration: none;
+background-color:rgb(32, 71, 116);}

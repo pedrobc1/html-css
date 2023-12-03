@@ -1,0 +1,18 @@
+para importar fontes baixadas, use essa regra
+@font-face {
+  font-family: 'better'; (nome que voce da para a fonte)
+  src: url(Betterlett.ttf) format(truetype);    (url da fonte que voce baixou e o formato, que depende da terminacao do arquivo)
+  font-weight: normal;
+  font-style: normal;
+}
+h1{
+  font-family: 'better';
+}
+
+
+formatos
+-opentype (otf)
+-truetype (ttf)
+-embedded-opentype
+-truetype-aat (apple advanced typography)
+-svg

@@ -1,0 +1,12 @@
+Dicas de efeitos sonoros
+youtube studio
+Biblioteca de audios do youtube
+mexer nas atribuiçoes
+nao usar arquivos com qualidade muito alta, ja que irá pesar o site
+  <audio preload="metadata"(serve para deixar o site mais rapido, pois so ira baixar o arquivo quando clicado) controls (adiciona o botao de audio)>
+         <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+         <source src="midia/guanacast-33.ogg" type="audio/ogg">
+         <source src="midia/guanacast-33.wav" type="audio/wav">
+         <p>Infelizmente seu navegador nao tem suporte para audio, clique <a href="midia/guanacast-33.mp3">aqui</a> para baixar</p>
+  </audio>
+ao botar varios tipor de arquivo diferentes com o mesmo conteúdo caso o navegador do usuario nao tenha suporte para algum deles, ele tentara abrir os outros, e caso nao tenha compatibilidade com nenhum dos arquivos, mostrará a mensagem <p>

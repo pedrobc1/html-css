@@ -1,0 +1,85 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.menufixo{
+  max-width: 100%;
+}
+.logo , .coracao , .carrinho , .menu{
+  display: inline-block;
+  margin: 10px;
+}
+.coracao , .carrinho , .menu{
+  float: right;
+}
+.lupabuscar{
+  background-color: #F3F3F3;
+margin: 0 auto;
+  width: 90%;
+  height: 2.5em;
+  border-radius: 40px;
+  font-size: 15px;
+}
+.lupabuscar:hover{
+  background-color:#D6D6D6 ;
+}
+
+#lupa , #busca{
+  display: inline-block;
+}
+#busca{
+  color: rgba(0, 0, 0, 0.63);
+}
+.lupabuscar > #lupa{
+  margin-top: 0.7em;
+  margin-left: 0.7em;
+}
+.ofertas , #oferta{
+background-color: #F3F3F3 ;
+display: inline-block;
+}
+.ofertas{
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5em;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+.ofertas > #oferta > #troca{
+  font-weight: bolder;
+}
+.ofertas > #oferta > a{
+  font-weight: 300;
+  font-size: smaller;
+  color: black;
+}
+.img1{
+  max-width:100%;
+  height: auto;
+  margin: 8em auto 1em auto;
+  display: flex;
+}
+.imagem-colecao-desk{
+  width: 100%;
+}
+.imagem-colecao-mobile{
+  margin-left: -1.5em;
+}
+.buttonsfoto , .button1 ,  .button2, .button3{
+text-align: center;
+border-radius: 30px;
+height: 3em;
+color: white;
+}
+.button1 ,  .button2, .button3{
+  background-color: black;
+  border: none;
+  margin: 1em;
+  font-size: 1.1em;
+}
+.button1:hover ,  .button2:hover, .button3:hover{
+  background-color: rgb(66, 66, 66);
+}

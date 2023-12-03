@@ -1,0 +1,21 @@
+tem que ter o vs code, o git e o github instalados
+entrar no github desktop e logar na sua conta
+clique em options, depois em git, clica no nome e no email temporario e da save
+clique no repositorio que voce quer trabalhar e clique em clonar
+crie uma nova pasta e salve nessa pasta
+faça as alteracoes que voce quiser no vs code ou em outros lugares, salve e de commit
+apos o commit , clique em push origin e pronto
+estara no github
+
+e para ir embora sem deixar rastros?
+
+feche tudo que esta aberto e deixe apenas o github desktop aberto
+clique em repository no github desktop
+clique em remove repository e marque o quadradinho de remover da lixeira
+clique em remove
+depois va em accounts e clique em sign out
+depois va em git e apague o seu nome e email temporario e salve
+fehce o github desktop e esvazie a lixeira
+verifique se esta tudo apagado mesmo e
+pronto!
+esta tudo limpo

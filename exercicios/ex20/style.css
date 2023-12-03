@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div#a1 > p {
+  display:none;
+}
+#a1:hover > p{
+display: block;
+}
+div:hover{
+  color: rgb(27, 27, 110);
+}

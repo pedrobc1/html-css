@@ -1,0 +1,7 @@
+<a href="link" target="_blank" rel="external"></a> (sempre tem que ser A na tag)
+sempre usar o target e o rel, para levar o usuario ate outro site sem que ele saia do seu site
+para fazer link interno (mudar de paginas do mesmo site)
+<a href="arquivo que leva a outra pragina dentro do seu site" rel="internal"></a>]
+Arquivos de Download
+<a href="download/10 - Ligações em toda parte.pdf" target="_blank">baixar livro em pdf</a>
+<a href="download/10 - Ligações em toda parte.zip" type="applications/zip">baixar livro em zip</a>

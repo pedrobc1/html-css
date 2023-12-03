@@ -1,0 +1,64 @@
+padding - borda
+
+magin: 0 auto; - automaticamente centraliza
+
+width -  largura 
+
+height - altura
+
+text-align - alinhar o texto (center, right, left, justify...)
+
+margin-top/ margin-left/ margin-right: 100px;(ex) so funciona pra display block
+
+font-weight: 1000 ; - negrito forte
+
+border-radius: 10px; bordas arredondadas
+
+box-shadow: 10px(primeiro parametro: quanto a sombra vai andar pro lado) 10px(segundo parametro: quanto a sombra vai andar pra baixo) 10px (terceiro parametro: o quanto a sombra vai espalhar) black (quarto parametro: a cor da sombra -- usar a cor do fundo, so que escurecer um pouco e botar um pouco de transparecia)       sombra bonita -> box-shadow: 6px 5px 23px -4px black;
+
+text-shadow: (mesmos parametros do de cima);
+
+transform e transition ( para fazer animacoes simples )
+ex
+.relogiomen{
+  margin-top: 55em;
+  position: absolute;
+  margin-left: 1.3em;
+}
+.relogiomen:hover{
+  transform: scale(1.04);
+  transition: transform 1s ease;
+}
+.relogiowoman{
+  margin-top: 82em;
+  position: absolute;
+  margin-left: 1.3em;
+}
+.relogiowoman:hover{
+  transform: scale(1.04);
+  transition: transform 1s ease;
+}
+colocar a posicao no .class e colocar a animacao no .class:hover
+
+shorthand - junta as configuracoes para uma linha
+font: italic bold 3em 'work sans'
+
+
+
+quando usar class e id?
+id- quando quiser mudar apenas um elemento
+<h1 id="principal">
+css - #
+
+class- quando quiser agregar uma css a mais outros elementos
+<h1 class="menu>
+css - .
+
+usar o <span> para definir apenas uma parte do texto e colocar uma class ou id nele
+<span class="oi">
+
+transition-duration: 0.5s;
+para usar em botoes
+
+
+a img nao vem como base o display block, entao e necessario mudar para o block para centralizar a imagem

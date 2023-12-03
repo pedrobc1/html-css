@@ -1,0 +1,26 @@
+espaco em branco &nbsp
+marca registrada &reg
+copyright  &copy
+trademark  &trade
+
+
+Moedas
+&nome da moeda em ingles
+ex:&yen
+
+vazio &empty
+soma  &sum
+delta  &Delta
+
+setas
+
+seta esquerda  &larr
+seta acima  &uarr
+seta direita  &rarr
+seta baixo   &darr
+
+
+Emojis
+emojipedia.org
+pegar o codigo la em baixo e colar depois de &#x
+ex: &#x1F604

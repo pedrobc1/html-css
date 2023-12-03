@@ -1,0 +1,123 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background-color: rgb(124, 180, 124);
+    font-family:'Montserrat', sans-serif; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: rgb(65, 94, 54);
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.24);
+}
+.menu{
+    text-align: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.63), rgb(51, 116, 51),rgb(121, 192, 121) ) ;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 2em;
+    display: block;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    width: 100%;
+    color: white;
+}
+.menu > h4{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+}
+h1{margin-top: 0;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.342);
+}
+h3{
+    margin-top: 3em;
+}
+button{
+    float: left;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 7.5px;
+    transition-duration: 0.5s;
+    margin-left: 10px;
+    font-size:15px;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.151);
+}
+.corpo{
+    background-color: white;
+    width: 60%;
+    max-width: 1150px;
+    margin: 0 auto;
+    height: auto;
+    padding: 2em;
+    box-shadow:6px 5px 23px -4px rgba(0, 0, 0, 0.363); ;
+}
+.conteiner{
+    text-align: center;
+}
+.grande{
+    width: 90%;
+}
+#videocaixa{
+    background-color: rgb(34, 53, 23);
+    width: 60%;
+    max-width: 1150px;
+    margin:  auto;
+    height: auto;
+    padding: 2em;
+    box-shadow:6px 5px 23px -4px rgba(0, 0, 0, 0.363);
+}
+.video{
+    width: 100%;
+  
+}
+.extra{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    max-width: 1150px;
+    margin: 0 auto;
+    height: auto;
+    padding: 2em;
+    box-shadow:6px 5px 23px -4px rgba(0, 0, 0, 0.363);
+} 
+.tabelai{
+    background-color: rgb(34, 53, 23);
+    padding: 0.01em 0.5em 0.5em 0.5em;
+    margin: -1.5em;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+.tabelaf{
+    background-color: rgb(148, 187, 125);
+    padding: 0.1em 0.7em 0.1em 0.7em;
+    margin: -1.5em;
+    border-radius: 0px 0px 10px 10px;
+}
+#ul1, #ul2{ 
+display: inline-block;
+}
+.final{
+    padding: 1em;
+}
+.desenvolvido{
+    text-align: center;
+    background-color: rgb(6, 41, 6);
+    color: white;
+    left: 0;
+    padding: 0.2em;
+}
+p{
+    text-indent: 20px;
+}

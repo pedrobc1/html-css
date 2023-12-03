@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .parent {
+      background-color: yellow;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+
+    }
+    .child {
+      width: 90%;
+      height: 50px;
+      background-color: red;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child">sfdjkfjksdf sdjfsdkfsdhfjsdf sdjf sdfjsdfsdk fhsd fsdgf sdjfgsdf sdjkf gsdjkfsdg fjksd ghfjksd jfksdjf sjkdf sdhjf ksdhfjsdkfhs dkfhsdfhsdjkfsdh fksd hfksdj fksdjfhsdkfjsd kfsd fds gsdfgsdfgdsfgdf gd fgdf gd gdf</div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+</body>
+</html>

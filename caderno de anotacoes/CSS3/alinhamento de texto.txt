@@ -1,0 +1,7 @@
+h1{
+  text-align: center;   alinhar ao centro
+}
+p{
+  text-align: justify; alinhar o texto
+  text-indent: 200px;  iniciar o texto em determinado pixel
+}

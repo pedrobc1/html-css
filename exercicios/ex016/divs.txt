@@ -1,0 +1,19 @@
+para criar uma div (uma barrinha colorida), primeiro, em html, crie a tag div e de uma class a ela
+no css, crie uma background pra ela e de as seguintes configuracoes
+width - tamanho lateral que sera ocupado
+height -  altura em pixels que o div tera
+position: fixed - pixar a posicao
+top: 0; - colar ele no teto
+left: 0; - colar ele na esquerda
+right: 0; - colar ele na direita
+z-index: 9999; - x index alto para botar ele acima de tudo
+
+alinhar o texto para cima e para baixo
+h1 {
+  line-height: 0.3;
+}
+altura que quiser colocar o texto 
+
+alinhar o texto pros lados
+h1 {magin-left: 50px}
+distancia do texto da margem da esquerda

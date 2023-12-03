@@ -1,0 +1,17 @@
+<style>
+    body{
+      background-color: lightskyblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.2em;}
+      h2{
+        color: cornflowerblue;
+        
+      }
+      h1{
+        color:darkslategrey;
+        background-color:darkcyan;
+      }
+      p{text-align: justify;}
+
+</style>
+e melhor que o inline, ja que separa o css do html, mas, quando tivermos muitas outras paginas com o mesmo estilo, este modo ficara ruim e trabalhoso

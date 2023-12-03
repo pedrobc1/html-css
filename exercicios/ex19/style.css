@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  background-color: #16181C;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.barramenu{
+  background-color: #1E242B;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  text-indent: 100px;
+}
+.h1menu{
+  margin-top: 6em;
+}
+.avancado{
+  color: rgb(97, 46, 46);
+}
+.basico{
+  color: rgb(48, 82, 48);
+}
+.intermediario{
+  color: rgb(40, 40, 102);
+}

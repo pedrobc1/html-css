@@ -1,0 +1,17 @@
+	E o melhor e mais oganizado modo de utilizar as css
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleextra.css">(caso eu tenha um css extra especifico para uma pagina)
+</head>
+adicionar um link para outra pagina so de css
+link:css
+dentro da pasta, teremos o css que servira para qualquer outra pagina, desde que coloque o link no head de cada pasta
+caso queira adicionar um css especifico para algumas coisas em uma pagina, voce pode adicionar mais um link de css, que ira se sobressair ao primeiro link
+SEMPRE COLOCAR @charset "UTF-8"; QUANDO COMECAR A PAGINA DE CSS
+
+rank dos mais fortes
+1 css inline
+2 css local
+3 css externo
+
+
+voce tambem pode misturar as 3 css acima quando quiser mudar algo muito especifico, mas usar majoritariamente a css externa

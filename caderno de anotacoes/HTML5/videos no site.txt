@@ -1,0 +1,24 @@
+Usar o Hand brake para otimizar e mudar o formato do video
+botar todas os 4 formatos de vídeo (webM, ogv, m4v, mp4)
+<video src="midia/video1mp4comprimido.mp4" width="400" controls></video>
+width: usar para diminuir o tamanho do video no site
+controls: adicionar a player no video
+ex:
+  <video width="400" poster="imagens/A Praia.png" controls>
+    <source src="midia/video1mp4comprimido.mp4" type="video/mp4">
+    <source src="midia/video1comprimidomkv.mkv" type="video/mkv">
+    <source src="midia/video1comprimidowebm.webm" type="video/webm">
+        <p>Seu navegador não tem suporte para a reprodução de vídeos</p>
+  </video>
+usando a tag <videos>, há MUITO consumo de banda
+para melhoras isso, use outros serviços de hospedagem como o vimeo(pago e melhor) e o youtube(gratuito e pior)
+1- postar o video numa dessas plataformas
+2- compartilhar-incorporar
+3- colar o codigo no cod do site
+fica mais ou menos assim:
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UEQVuseO8QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen; autoplay;></iframe>
+*autoplay so funciona se o video estiver setado em muted
+se nao funcionar, usar javascript como ultima opcao
+<script>
+    document.getElementById('idDaTagVideo').play();
+</script>

@@ -1,0 +1,35 @@
+paleta de cores: de 3 a 5 cores
+cores frias: combina com coisas mais luxuosas
+cores quentes: comida, amor
+
+cores opostas contrastam muitos
+cores opostas: cores do outro lado do hemisferio cromatico
++
++
+cores analogas nao contrastam muito, mas harmonizam
++++
+
+da para criar uma paleta com 3 cores analogas e uma complementar, para contrastar com as outras cores
++++
+ +
+
+cores analogas relacionadas
+2 cores vizinhas + pular uma cor e pegar a proxima
+ ++-+
+
+cores intercaladas
++-+-+
+paleta mais dura, nao muito usada
+cores triadias
+pular 3 cores e pegar as outras
+---+---+---+
+cores em quadrado
+fortes e bem balanceadas
+--+--+--+--+
+cores tetradicas
+quadrado das cores
+tracar 2 cores copostas, formando um x, e escolher as cores de cada extremidade desse x
+
+monocromia
+mudar a saturacao e a luminosidade da cor
+"degrade"

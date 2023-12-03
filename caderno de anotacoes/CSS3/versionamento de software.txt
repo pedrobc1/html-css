@@ -1,0 +1,19 @@
+como colocar o site no ar
+
+repositorio local/remoto
+arquivos estao no computador
+o site esta no meu computador
+é ideal guardar versoes anteriores
+
+instalar um gerenciador de versoes
+ele vai guardar as versoes do seu site
+um desses softwares é o GIT (guarda as versoes no seu computador)
+
+github é a ferramenta que vai fazer um backup dos seus arquivos na nuvem
+ 
+git - repositorio local
+github - repositorio remoto
+atualizar o repositorio local no repositorio remoto
+
+assistir playlist de git e github
+o github so sustenta html css e js

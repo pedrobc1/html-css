@@ -1,0 +1,14 @@
+criar um repositorio no github desktop com o nome da pasta que ira ser o repositorio
+cria essa pasta dentro do lugar que esta o material do repositorio
+passe todo o material para a nova pasta criada
+atualize tudo na aba do github desktop
+publique
+pronto
+
+para hospedar o repositorio, va em settings, depois em pages, deixe em deploy from a branch e escolha main e /root e de save
+um tempo depois ira aparecer um link
+ali estara o seu repositorio online
+
+para entrar numa pasta que esteja o arquivo html, escreva a path
+
+ex https://pedrobc1.github.io/Nike/paginadeprodutos/index.html

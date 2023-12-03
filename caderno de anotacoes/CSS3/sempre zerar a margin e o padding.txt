@@ -1,0 +1,5 @@
+*{
+margin= 0px;
+padding= 0px;
+}
+depois e so terminar de ajustar um por um

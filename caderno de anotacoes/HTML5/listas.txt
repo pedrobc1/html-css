@@ -1,0 +1,14 @@
+listas ordenadas
+<ol>  (ordered list)(da para botar Types como I, i, a, A, 1)
+<li> blabla </li>
+</ol>
+
+<ul>  (unordered list) (da para botar types como square, circle...)
+<li> blabla </li>
+</ul>
+
+listas de definiçao (definition list)
+<dl> (delimitação da definition list)
+<dt></dt>(oque será definido)
+<dd></dd> (a definição)
+</dl>
