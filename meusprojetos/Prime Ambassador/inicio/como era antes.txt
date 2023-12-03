@@ -1,0 +1,354 @@
+   <div class="inicio">
+      <img src="image-removebg-preview (12).png" alt="menu" class="menu">
+      <img src="image-removebg-preview (primeambassador).png" alt="primeambassador" class="logo">
+      <h1 class="frase1">THE PRIME AMBASSADOR</h1>
+      <p class="pfrase1">Set yourself apart from the realm of the ordinary and make your mark with a unique, stunning horological masterpiece. The Prime Ambassador is a classical testament to exceptional craftsmanship.</p>
+      <img src="image-removebg-preview (13).png" alt="relogio" class="relogioimg">
+    </div>
+    <div class="baixo1">
+      <br>
+    <img src="Captura de tela 2023-05-19 184316.png" alt="freeshipping" class="baixo11">
+    <img src="Captura de tela 2023-05-19 184259.png" alt="10yearwarranty" class="baixo12">
+    </div>
+    <div class="baixo2">
+      <br>
+      <img src="Captura de tela 2023-05-19 184226.png" alt="60dayreturn" class="baixo21">
+      <img src="Captura de tela 2023-05-19 184201.png" alt="expressdelivery" class="baixo22">
+    </div>
+    <div>
+      <a href=""><img src="imagemrelogiomen.png" alt="relogio" class="relogiomen"></a>
+    </div>
+    <div>
+      <a href=""><img src="relogiomulher.png" alt="relogiomulher" class="relogiowoman"></a>
+    </div>
+        <div class="topsellers">
+          <h1 class="topsellersh1"> THE TOP SELLERS</h1>
+        </div>
+        <div class="topsellersimg">
+        <img src="relogiotopseller1.png" alt="heritage 1921" class="heri1">
+        <img src="relogiotopseller2.png" alt="heritage 1863" class="heri2">
+        <img src="relogiotopseller3.png" alt="heritage 1959" class="heri3">
+        </div>
+        <a href="">
+          <div  class="heritage1">
+          HERITAGE 1921
+          </div>
+        </a>
+        <a href="">
+          <div class="heritage2">
+          HERITAGE 1863
+          </div>
+        </a>
+        <a href="">
+          <div class="heritage3">
+          HERITAGE 1959
+          </div>
+        </a>
+        <br>
+        <div class="priceheritage1">
+        <s>$199</s>&nbsp;&nbsp;&nbsp;$149
+        </div>
+        <div class="priceheritage2">
+        <s>$249</s>&nbsp;&nbsp;&nbsp;$200
+        </div>
+        <div class="priceheritage3">
+          <s>$219</s> &nbsp;&nbsp;&nbsp;$179
+        </div>
+        <div id="barrinha"> &nbsp;
+        </div>
+        <div id="explore">
+          EXPLORE
+          <p id="leave">LEAVE ORDINARY BEHIND</p>
+          <p id="you">You don't believe in the commonplace, and neither do we. We strive for absolute greatness - and our watches are the living illustration of that ideology. Are you ready to make your mark?</p>
+        </div>
+        <div id="history">
+          &nbsp;
+          <p id="history1">Meet the mystery behind it all </p>
+          <p id="history2">This tale begins with our namesake’s profession: the ambassador. Like all envoys, the original ambassador’s job was to be the manifestation of his homeland on foreign soils. But, he was always different...</p>
+          <a href=""><button id="buttonstory"><p> READ OUR STORY</p></button></a>
+        </div>
+        <div id="design">
+          <h1>Designed In-House</h1>
+          <p id="settle">Don't settle for less. We design everything in-house, down to the smallest details. When you buy an Ambassador watch, you're purchasing a master-crafted timepiece that attracts admiration and compliments.</p>
+          <a href="">
+            <button  id="buttondesign">
+              <p>LEARN MORE</p>
+            </button>
+          </a>
+        </div>
+        <div id="tpc">
+       <h1>The Prime Collection</h1>
+       <p>A stunning classic featuring sapphire, crystals, elegant details, and refined movement backed by a decade-long warranty. Because you shouldn't settle for less.</p>
+       <a href=""><button id="buttonexplore"><p>EXPLORE THE COLLECTION</p></button></a>
+        </div>
+
+
+
+
+
+
+
+
+
+body{
+  background-color: #EAEAEA;
+}
+
+
+.inicio{
+  background-color: #AF9D8C;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  height: 700px;
+}
+.menu{
+  margin-top: 25px;
+  margin-left: 35px;
+  text-align: center;
+}
+.logo{
+  margin-top: 25px;
+  margin-left: 230px;
+  text-align: center;
+}
+.frase1{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-top: 7.5em;
+  margin-left: 6.2em;
+  letter-spacing: 6px;
+}
+.pfrase1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 49em;
+  text-align:center;
+  margin-left: 3em;
+}
+.relogioimg{
+  margin-top: 2.25em;
+  margin-left: 11em;
+}
+.baixo1, .baixo2{
+  background-color:#FBFBFB ;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  position: absolute;
+}
+.baixo1{
+  margin-top: 770px;
+  height: 100px;
+}
+.baixo2{
+  margin-top: 700px;
+}
+.baixo11{
+  margin-left: 8em;
+}
+.baixo12{
+  margin-left: 15em;
+}
+.baixo21{
+  margin-left: 8.4em;
+}
+.baixo22{
+  margin-left: 14.5em;
+}
+.relogiomen{
+  margin-top: 56em;
+  position: absolute;
+  margin-left: 2.3em;
+}
+.relogiomen:hover{
+  transform: scale(1.04);
+  transition: transform 4s ease;
+}
+.relogiowoman{
+  margin-top: 84em;
+  position: absolute;
+  margin-left: 2.3em;
+}
+.relogiowoman:hover{
+  transform: scale(1.04);
+  transition: transform 4s ease;
+}
+.topsellersh1{
+  margin-top: 56em;
+  position: absolute;
+  margin-left:10.2em;
+  font-family:'Rajdhani', sans-serif;
+  
+}
+.topsellersimg{
+  margin-top: 117em;
+  position: absolute;
+  margin-left: 5.6em;
+
+}
+.heri1:hover{
+  transform: scale(1.04);
+  transition: transform 1s ease;
+}
+.heri2:hover{
+  transform: scale(1.04);
+  transition: transform 1s ease;
+}
+.heri3:hover{
+  transform: scale(1.04);
+  transition: transform 1s ease;
+}
+.heritage1, .heritage2, .heritage3{
+  display: inline-block;
+  margin-top: 106.5em;
+  font-family:'Rajdhani', sans-serif ;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.heritage1:hover, .heritage2:hover, .heritage3:hover{
+  color: #AF9D8C;
+}
+.heritage1{
+  margin-left: 6.7em;
+}
+.heritage2{
+  margin-left: 5.8em;
+}
+.heritage3{
+  margin-left: 6.2em;
+}
+.priceheritage1, .priceheritage2, .priceheritage3{
+  display: inline-block;
+  margin-top: 1em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 900;
+  color:grey;
+}
+.priceheritage1{
+  margin-left: 10em;
+}
+.priceheritage2{
+  margin-left: 10.4em;
+}
+.priceheritage3{
+  margin-left: 11.2em;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+#barrinha{
+  background-color: rgba(128, 128, 128, 0.808);
+  width: 1px;
+  height: 2.5em;
+margin-left: 27.5em;
+margin-top: 2.5em;
+}
+
+#explore{
+  color: #AF9D8C;
+  font-family: 'Montserrat', sans-serif  ;
+  font-weight: bolder;
+  margin-top: 2em;
+  text-align: center;
+}
+#explore > #leave{
+  color: black;
+  font-size: 50px;
+ 
+}
+#explore > #you{
+  color: rgba(0, 0, 0, 0.589);
+  max-width: 500px;
+  margin-left: 11.2em;
+  margin-top: -1em;
+  font-size: 17px;
+
+}
+#history{
+  background-color: rgba(0, 0, 0, 0.692);
+  width: 100%;
+  height: 500px;
+color: white;
+font-family: 'Montserrat', sans-serif ;
+margin-top: 4em;
+}
+#history > #history1{
+  font-size: 30px;
+  max-width: 200px;
+  margin-top: 3em;
+  margin-left: 2.07em;
+  text-align:inherit;
+}
+#history > #history2{
+  max-width: 300px;
+  margin-top: 1em;
+  margin-left: 4em;
+  color: rgba(255, 255, 255, 0.705);
+}
+#buttonstory{
+border-style:groove ;
+border-color: #AF9D8C;
+background-color: rgba(255, 255, 255, 0);
+color: white;
+font-family: 'Montserrat', sans-serif  ;
+margin-left: 4.5em;
+}
+#design{
+  background-color:#EAEAEA ;
+  font-family: 'Montserrat', sans-serif  ;
+  font-weight: bolder;
+  margin-top: 4em;
+}
+#design > h1{
+  font-size: 50px;
+  text-align: center;
+}
+#settle{
+  font-size: 17px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.589);
+}
+#buttondesign{
+  border-style:groove ;
+  border-color: #AF9D8C;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif  ;
+margin-left: 29em;
+margin-top: 2em;
+}
+#tpc{
+background-color: #221D1B;
+font-family: 'Montserrat', sans-serif ;
+color: white;
+margin-top: 4em;
+right: 0;
+left: 0;
+position: absolute;
+text-align: center;
+height: 350px;
+top: auto;
+}
+#tpc > h1{
+  font-size: 50px;
+}
+#tpc > p{
+  max-width: 700px;
+  margin-left: 100px;
+  color: rgba(255, 255, 255, 0.705);
+  margin-top: 2em;
+}
+#buttonexplore{
+background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+border: #AF9D8C;
+border-style:groove ;
+font-family: 'Montserrat', sans-serif  ;
+margin-top: 4em;
+}
