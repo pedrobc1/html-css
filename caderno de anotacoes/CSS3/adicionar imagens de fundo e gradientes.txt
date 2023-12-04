@@ -1,0 +1,17 @@
+para adicionar imagens de fundo
+    background-image: url(imgs/pattern003.png);
+para adicionar gradiente
+    background-image: linear-gradient(to left, red, blue);
+
+sempre tem que colocar as virgulas
+
+background-position:
+
+background-size:
+
+background-repeat:
+pode ter os valores:
+repeat - e o padrao e carrega a quantidade de imagens necessarias para ocupar a tela
+no repeat - carregara apenas uma imagems
+repeat x - repete apenas no eixo x
+repeat y -  repete apenas no eixo y
