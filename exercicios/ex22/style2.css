@@ -1,6 +1,26 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .bloco{
-    
+    height: 520px;
+    width: 520px;
+    border: 1px solid black;
+    background-color: gray;
+    background-image: url(imgs/wallpaper002.jpg);
+    display: inline-block;
+}
+#q1{
+    background-position: left top;
+}
+#q2{
+    background-position: right top;
+}
+#q3{
+    background-position: left bottom;
+}
+#q4{
+    background-position: right bottom;
 }

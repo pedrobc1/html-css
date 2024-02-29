@@ -8,6 +8,10 @@ sempre tem que colocar as virgulas
 background-position:
 
 background-size:
+define o tamanho da imagem
+ex
+background-size: 100px 100px
+a imagem tera 100px X 100px
 
 background-repeat:
 pode ter os valores:
