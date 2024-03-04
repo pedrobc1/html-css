@@ -6,6 +6,16 @@ para adicionar gradiente
 sempre tem que colocar as virgulas
 
 background-position:
+sempre coluna depois linha
+    <style>
+        body{
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/1745px-Android_robot.svg.png);
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 98vh; (como numa tela em branco o body esta muito pequeno, foi preciso adcionar uma height(vh significa viewport, ou seja, 98vh ocupara 98% do tamanho da tela) no body para centralizar a foto)
+        }
+    </style>
 
 background-size:
 define o tamanho da imagem
