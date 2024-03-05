@@ -22,6 +22,10 @@ define o tamanho da imagem
 ex
 background-size: 100px 100px
 a imagem tera 100px X 100px
+temos 2 propriedades uteis para o preenchimento da tela com a imagem
+background-size: cover; (cobre toda a tela mesmo que seja preciso cortar a imagem)
+background-size: contain; (cobre toda a tela possivel de cobrir sem cortar a imagem)
+--por padrao ele vem no auto--
 
 background-repeat:
 pode ter os valores:
