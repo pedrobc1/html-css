@@ -10,12 +10,10 @@
             color: white;
             text-align: center;
             padding: 1em;
-            position:relative;
-            top: 0;
+            font-variant: small-caps;
         }
-        h1{
-            font-size: 70px;
-            margin: 0;
+        .cabecalho > h1{
+            font-size: clamp(30px, 10vw, 100px);
         }
         h4{
             font-weight: 100;
@@ -44,7 +42,7 @@
             background-image: url(imagens/background001.jpg);
             background-size: cover;
             background-position: center center;
-            background-attachment: scroll;
+            background-attachment: fixed;
             margin-top: 7em;
             box-shadow: inset 0px 5px 11px 0px rgba(0, 0, 0, 0.514);
             padding: 1em;
