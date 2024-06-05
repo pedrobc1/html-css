@@ -33,3 +33,7 @@ repeat - e o padrao e carrega a quantidade de imagens necessarias para ocupar a 
 no repeat - carregara apenas uma imagems
 repeat x - repete apenas no eixo x
 repeat y -  repete apenas no eixo y
+
+background-attachment: fixed; (a img de fundo fica fixa na tela  eo conteudo (divs) continuam rolando normalmente (normalmente combinamos o backgroundo size cover junto com esta declaracao))
+background-attachment: scroll; (a img de fundo rola junto com o conteudo)
+

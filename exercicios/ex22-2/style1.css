@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Questrial", sans-serif;
+}
+.menu{
+    background-image: url(imgs/wallpaper006.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.top{
+background-color:#D9D9D9;
+height: 70px;
+width: 100%;
+box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.329) ;
+}
+.login{
+    position: absolute;
+    height: 60%;
+    width: 75%;
+    max-width: 600px;
+    background-color: #E9E9E9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    box-shadow: inset 0px 11px 20px 4px rgba(0, 0, 0, 0.329) ;
+}

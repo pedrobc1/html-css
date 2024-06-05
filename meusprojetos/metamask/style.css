@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Questrial", sans-serif;
+    background-color: #121212;
+}
+.top{
+height: 100px;
+background-color:#121212;
+color: #FFFFFF;
+width: 100%;
+}
+button{
+    background-color:#1565C0 ;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+#buttons{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+button:hover{
+    background-color: #1565c083;
+}
+.top > p{
+    display: inline-block;
+    
+}
+#diva{
+    float: right;
+    margin: 2em;
+}
+#diva > .main{
+    display: inline-block;
+    margin-right: 2em;
+}
+#diva, .top{
+    display: inline-block;
+}
+#m{
+    text-indent: 100px;
+    font-size: 35px;
+    font-weight: 900;
+}
