@@ -1,0 +1,14 @@
+div - box level
+span - inline level
+
+tags semanticas
+
+header- é o cabeçalho usar do h1 ao h6
+     nav- é um agrupamento de links de navegaçao ( podemos usar ul e li)
+main- é o conteudo principal, o assunto do site ( apenas um main na pagina)
+     section- é uma sessao de conteudos do site ( geralmente tem um titulo) (topico de um documento)
+           arcticle- linha de conteudos da section (nao precisa do seu pai para fazer sentido)
+                 aside- complemento do arcticle ( conteudo de apoio ao principal, como o nome do autor e etc)
+footer- é o rodape
+figure - marcaçao para inserir figuras
+       figcaption- descricao da figura

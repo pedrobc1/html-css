@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Adicione algum estilo conforme necessário */
+        div {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Exemplo de uso da propriedade title -->
+<div title="Este é um elemento com significado quando você passa o mouse sobre ele.">
+    Passe o mouse sobre este elemento.
+</div>
+
+</body>
+</html>
+so usar o title para ver o significado da div
