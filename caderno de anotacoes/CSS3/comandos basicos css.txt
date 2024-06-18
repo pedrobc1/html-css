@@ -62,3 +62,6 @@ para usar em botoes
 
 
 a img nao vem como base o display block, entao e necessario mudar para o block para centralizar a imagem
+
+
+vertical align    alinha verticalmente e so funciona no contein, diferente do text align, que funciona no conteiner

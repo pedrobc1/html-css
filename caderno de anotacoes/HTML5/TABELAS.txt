@@ -1,0 +1,81 @@
+    <!--HIERARQUIA DE TABELAS (SIMPLES)
+    TABLE= TABELA
+    TABLE ROW = LINHA DE TABELA
+    TABLE HEADER = CABECALHO DE TABELA
+    TABLE DATA = DADO DE TABELA-->
+
+html tabelas
+
+table cria a tabela
+tr cria cada linha da tabela
+td cria cada celula
+caption e o titulo da tabela (sempre fica em cima)
+
+<body>
+    <h1>minha primeira tabela</h1>
+
+    <table> parte de fora
+        <tr> linha
+            <td>a1</td>
+            <td>b1</td> celulas das linhas
+            <td>c1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>  
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+        <tr>
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+        </tr>
+    </table>
+
+css tabelas
+bordercollapse junta as linhas
+<style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 400px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 0.5em;
+        }
+    </style>
+
+
+td - para dados
+th - para titulos
+
+tbody > tr:nth-child(2n){
+            background-color: grey;
+        }
+essa desclaracao diz que a cada 2, um sera cinza
+serve para fazer zebrados
+
+temo outras variacoes do nth-child, como o odd ou o pair
+odd - apenas os impares serao pintados
+even - apenas os pares serao pintados
+
+
+para fazer com que o cabecalho desca junto coma tabela para facilitar o entendimento da tabela, faz-se o seguinte:
+
+primeiro, colocar um position relative na table mae
+segundo, colocar um position sticky e um top -1px no cabecalho a ser fixado
+	table{
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;

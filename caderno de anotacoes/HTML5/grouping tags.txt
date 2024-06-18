@@ -12,3 +12,4 @@ main- é o conteudo principal, o assunto do site ( apenas um main na pagina)
 footer- é o rodape
 figure - marcaçao para inserir figuras
        figcaption- descricao da figura
+thead - e a cabeca de uma section ou algo do tipo
