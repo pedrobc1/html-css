@@ -79,3 +79,83 @@ segundo, colocar um position sticky e um top -1px no cabecalho a ser fixado
             position: sticky;
             top: -1px;
             background-color: grey;
+
+colspan e rowspan
+colspan - e a quantidade de colunas que uma determinada linha (tr) deve ocupar
+rowspan - e a quantidade de linhas que uma determinada coluna deve ocupar
+ 
+scope - e como uma legenda
+o scope e um elemento semântico que adiciona significado ao th, ou seja, ela determina qual coluna ou linha diz respeito as informações contidas dentro do titulo (table head)
+ex
+grupo
+a
+b
+c
+d
+e
+f
+g
+no ex acima, o scope e rcol, ja que o as letras abaixo de group pertencem a ele
+
+grupo: a b c d e f g
+
+no ex acima, o scope e row, ja que os elementos da linha pertencem ao group
+
+grupo: a b c d e f g
+       h i j k l m n
+no ex acima, usamos o rowgroup, ja que e um grupo de mais de uma linha que pertencem ao grupo
+
+grupo
+a h
+b i
+c j
+d k 
+e l
+f m
+g n
+ colgroup
+
+ podemos também agrupar colunas usando o colgroup
+<table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">
+        </colgroup>
+assim fica mais fácil de adicionar características
+
+
+<------->
+nth-child
+como usar?
+ ele diz respeito ao filho de um pai
+quando eu tenho uma grande quantidade de filhos e quero determinar características especificas para um so filho, uso o nth-child
+ex:
+ul
+li
+li
+li
+li
+li
+li
+ul
+acima temos uma lista com vários li, que são filhos de ul
+para selecionar um so filho:
+
+li:nth-child(numero do filho primeiro, segundo etc){
+}
+
+ex:
+li:nth-child(2){
+backgroundcolor:blue;
+}
+apenas o segundo li ficara azul
+
+tabelas responsivas
+
+para evitar a rolagem lateal do site inteiro em telas menores, podemos fazer com que apenas a tabela tenha rolagem lateral
+para isso, precisamos envelopar a table num contêiner, e depois adicionar a propriedade overflow-x auto nele
+        #tableconteiner{
+            overflow-x: auto;
+        }
