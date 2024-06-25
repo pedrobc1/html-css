@@ -17,5 +17,19 @@ depois no link [e so colocar o target com  o nome do iframe
 <a href="pag001.html" target="iframe">
             <li>Primeira página</li>
         </a>
+o problema do código acima e: quando abrimos a pagina, o iframe inicia em branco
 
+para resolver isso podemos colocar uma das paginas no src do iframe (normal) ou:
+<iframe srcdoc="<h1>Escolha uma das opcoes acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, atque pariatur blanditiis enim</p> " frameborder="0" name="iframe">
+usar o srcdoc para colocar uma mensagem que ficara exibida ate que o usuário interaja com o conteudo
 
+como tornar iframes mais seguros
+para evitar que sites indesejados tenham acesso aos dados do seu usuário, existes algumas medidas que podem ser tomadas para melhorar a segurança do site
+
+como:
+sandbox="sandbox" (bloqueia tudo)
+sandbox="allow-same-origin allow-forms allow-scripts" (permite sites da mesma origem ; permite formulários ; permite que execute scripts junto com os formulários)
+referrerpolicy="no-referrer" (impede que colete informações do usuário para anúncios etc)
+fica assim:
+<iframe src="pag004.html" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+voce pode permitir so algumas coisas, como apenas os scripts e mais nada
