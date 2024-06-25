@@ -66,3 +66,6 @@ a img nao vem como base o display block, entao e necessario mudar para o block p
 
 vertical align    alinha verticalmente e so funciona no contein, diferente do text align, que funciona no conteiner
 o padrao e middle, que alinha no centro
+
+scolling no/auto/yes
+define se vai ter scroll ou nao

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgba(0, 0, 0, 0.507);
+        }
+        iframe{
+            border: 1px solid black;
+            width: 95%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <ul>
+        <a href="pag001.html" target="iframe">
+            <li>Primeira página</li>
+        </a>
+        <a href="pag002.html" target="iframe">
+            <li>Segunda página</li>
+        </a>
+        <a href="pag003.html" target="iframe">
+            <li>Terceira página</li>
+        </a>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, atque pariatur blanditiis enim minus laudantium reprehenderit animi fugiat voluptate ad accusamus aut dolor error quibusdam similique repellat omnis aliquam ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptatem nulla quibusdam dolorem ea corrupti obcaecati. Explicabo at distinctio assumenda corrupti doloremque laboriosam sit dolore? Eveniet cum earum explicabo exercitationem!</p>
+    <iframe srcdoc="<h1>Escolha uma das opcoes acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, atque pariatur blanditiis enim minus laudantium reprehenderit animi fugiat voluptate ad accusamus aut dolor error quibusdam similique repellat omnis aliquam ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptatem nulla quibusdam dolorem ea corrupti obcaecati. Explicabo at distinctio assumenda corrupti doloremque laboriosam sit dolore? Eveniet cum earum explicabo exercitationem!</p> " frameborder="0" name="iframe">
+        Seu navegador nao e compativel
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio eveniet rerum deserunt itaque similique nam vitae beatae earum et. Iure adipisci quas voluptas architecto dolorem! Temporibus officia dolorum voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum quos, ipsam quod doloribus nobis beatae quaerat sed soluta perspiciatis incidunt blanditiis libero nihil earum quas temporibus modi quae quia.</p>
+</body>
+</html>

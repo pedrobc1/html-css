@@ -6,4 +6,6 @@ no content
             position: absolute;
             left: 50%; (coloca a borda superior esquerda lateralmente a 50% do conteiner)
             top: 50%; (coloca a borda superior esquerda verticalmente a 50% do conteiner)
-            transform: translate(-50%, -50%); (o ponto de ancoragem ira mudar para o centro do conteiner)
+            transform: translate(-50%, 50%); (o ponto de ancoragem ira mudar para o centro do conteiner)
+
+o margin auto so funciona em display block

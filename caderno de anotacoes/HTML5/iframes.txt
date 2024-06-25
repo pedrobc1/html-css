@@ -1,0 +1,21 @@
+não são muito usados
+so usar o comando iframe e colocar o endereço do site que vc deseja mostrar
+nem sempre o iframe  é compatível com os navegadores
+caso não seja compatível, é interessante colocar uma mensagem no proprio iframe que so aparecera caso o mesmo não for compatível
+<iframe src="pag001.html" frameborder="0">
+        Seu navegador não é compativel
+    </iframe>
+o css é padrão
+é display inline
+
+como fazer diferentes paginas aparecerem num iframe
+de um nome para o iframe e deixe ele em branco
+  <iframe src="" frameborder="0" >>>name="iframe"<<<>
+        Seu navegador nao e compativel
+    </iframe>
+depois no link [e so colocar o target com  o nome do iframe
+<a href="pag001.html" target="iframe">
+            <li>Primeira página</li>
+        </a>
+
+
