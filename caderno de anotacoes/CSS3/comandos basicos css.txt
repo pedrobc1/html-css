@@ -68,4 +68,10 @@ vertical align    alinha verticalmente e so funciona no contein, diferente do te
 o padrao e middle, que alinha no centro
 
 scolling no/auto/yes
-define se vai ter scroll ou nao
+define se vai ter scroll ou não
+
+como esconder a barra de rolagem
+::-webkit-scrollbar{
+width:0px;
+height:0px;
+}
