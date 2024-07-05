@@ -1,0 +1,39 @@
+Como criar formularios
+<form action="cadastro.php" ( este action define para que lugar os dados serao enviados) autocomplete:off (tira as sugestoes na hora de escrever) method="GET" ou "POST"  (get aparece as infos na url (usar quando os dados nao forem sensiveis / get so envia ate 3 mil letras) e post ele escode, mas ao entar no inspecionar da pra ver (podemos usar o post para enviar mais dados +3mil letras)>
+       <p>
+<label for="Nome"  (o label cria uma relacao entre o input e o texto)  >Nome: </label>
+<input type="text" name="Nome" id="Nome">
+	</p>
+        <p>
+<label for="Sobrenome">Sobrenome: </label>
+<input type="text" name="Sobrenome" id="Sobrenome">
+	</p>
+        <input type="submit" value="Enviar">
+    </form>
+
+input:text inserir texto
+input:submit enviar dados
+input:time inserir hora
+input:date inserir data
+input:month inserir mês e ano
+input:number inserir numero
+SEMPRE USAR O LABEL
+Ao enviar os formularios, as informacoes enviadas vao para a url do site.
+
+mais alguns atributos de forms
+<input type="text" name="usu" id="usu" required maxlength="10" size="15" placeholder="Nome do Usuario" autocomplete="username">
+
+required : obriga o usuario a colocar algum dado
+maxlength : deermina um maximo de letras
+minlength : minimo de letras
+min e max : mínimo e maximo para números
+step : de quanto em quanto para numeros
+value : valor pre definido (retira o placeholder)
+size : determina a quantidade de caracteres que vao APARECER na caixa
+placeholder : coloca uma frase para ajudar o usuario que some ao comecar a digitar
+autocomplete: o autocomplete no input tem variados valores. para o navegador dar uma sugestao, ele precisa saber doque se trata a caixa. ao usar o autocomplete nos determinamos isso. alguns valores de autocomplete
+	current-password
+	username
+	bday day
+	family
+etc
