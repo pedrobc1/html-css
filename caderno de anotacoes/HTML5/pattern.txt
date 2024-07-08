@@ -1,0 +1,19 @@
+pattern
+regex
+serve para encontrar e determinar um padrao nas coisas
+podemos usar para determinar um padrao de email ou de telefone, por exemplo.
+
+ex de regex em um pattern num input:tel
+pattern="^(\([0-9]{2}\))?[0-9]{4,5}[0-9]{4}$"
+todo regex comeca com o ^ e termina com o $
+para determinar um abre e fecha parentheses, usamos \( xxx \) <--- TEM QUE SER  A BARRA INVERTIDA
+(\([0-9]{2}\))?
+ao evelopar com parenteses e colocar um ponto de interrogação no final eu tornei aquele grupo opcional
+[0-9]{2}
+significa que posso inserir 2 caracteres entre 0 e 9
+[0-9]{4,5}
+posso inseir 4 ou 5 caracteres entre 0 e 9
+
+posso fazer isso com o alfabeto também
+
+--------estudar mais sobre isso--------

@@ -17,6 +17,8 @@ input:time inserir hora
 input:date inserir data
 input:month inserir mês e ano
 input:number inserir numero
+input:tel inserir telefone ->necessário usar pattern
+input:email inserir email
 SEMPRE USAR O LABEL
 Ao enviar os formularios, as informacoes enviadas vao para a url do site.
 
@@ -31,6 +33,7 @@ step : de quanto em quanto para numeros
 value : valor pre definido (retira o placeholder)
 size : determina a quantidade de caracteres que vao APARECER na caixa
 placeholder : coloca uma frase para ajudar o usuario que some ao comecar a digitar
+pattern: entrar no documento de pattern em html
 autocomplete: o autocomplete no input tem variados valores. para o navegador dar uma sugestao, ele precisa saber doque se trata a caixa. ao usar o autocomplete nos determinamos isso. alguns valores de autocomplete
 	current-password
 	username
