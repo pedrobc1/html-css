@@ -89,3 +89,51 @@ ex
         </form> 
 também podemos fazer com input:text da mesma forma
 -------O ID DO INPUT *TEM* QUE SER DIFERENTE DO ID DA DATALIST--------
+
+
+tag output
+essa tag serve apenas para saida, ou seja, serve so para mostras coisas
+normlamente e usada em conjunto do javascript
+label for="num">
+                    <input type="range" id="inum" name="num" required min="0" max="10" value="5" oninput="val.innerHTML = Number(inum.value)">
+                    <output id="val">5</output>
+                </label>
+oninput="val.innerHTML = Number(inum.value)"
+significa que no output de id val ira aparecer o numero do valor do inum, que e o id do input
+
+outro exempo mais complexo
+<form action="cadastro.php">
+        <fieldset>
+            <legend>formulario</legend>
+            <p>
+                <label for="nasc">Nascimento:</label>
+                <input type="number" name="nasc" id="inasc" min="1910" max="2024" value="2024" required oninput="calcIdade()">
+            </p>
+            <p>
+                <label for="iidade">Sua idade:</label>
+                <output id="iidade">0</output>
+            </p>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear();
+            iidade.innerHTML = Number(atual) - Number(inasc.value);
+        }
+    </script>
+para o codigo acima, criamos um script que subtrai o ano atual pelo ano de nascimento
+oninput="calcIdade()"
+
+para programar o script acima, criamos uma funcao para ele:
+<script>
+        function calcIdade(){
+            let atual = new Date().getFullYear();
+            iidade.innerHTML = Number(atual) - Number(inasc.value);
+        }
+    </script>
+nessa function, determinamos que o calcIdade sera o ano atual - o ano que o usuario nasceu
+let atual = new Date().getFullYear();
+            iidade.innerHTML = Number(atual) - Number(inasc.value)
+variavel atual = ano atual
+iidade seria o atual (programado acima) - o numero digitado pelo usuario
