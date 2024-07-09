@@ -10,6 +10,10 @@ Como criar formularios
 	</p>
         <input type="submit" value="Enviar">
     </form>
+(usar método post
+input:color inserir cor
+input:file inserir arquivo
+input:range inserir nível numa barrinha)
 
 input:text inserir texto
 input:submit enviar dados
@@ -19,12 +23,15 @@ input:month inserir mês e ano
 input:number inserir numero
 input:tel inserir telefone ->necessário usar pattern
 input:email inserir email
+input:radio inserir uma so resposta dentre varias (usa para sexo; botar o mesmo name)
+input:checkbox marcar varias opcoes
 SEMPRE USAR O LABEL
 Ao enviar os formularios, as informacoes enviadas vao para a url do site.
 
 mais alguns atributos de forms
 <input type="text" name="usu" id="usu" required maxlength="10" size="15" placeholder="Nome do Usuario" autocomplete="username">
 
+checked : marcado
 required : obriga o usuario a colocar algum dado
 maxlength : deermina um maximo de letras
 minlength : minimo de letras
@@ -40,3 +47,45 @@ autocomplete: o autocomplete no input tem variados valores. para o navegador dar
 	bday day
 	family
 etc
+
+
+elementos fora da tag input
+para criar novos modelos de forms mais variados, precisaremos estudar outras coisas além da tag input
+
+ <form action="">
+        <p>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" >
+                <option value="escolha" selected>Escolha</option>
+                <optgroup label="Sudeste">
+                    <option value="ES">Espirito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">Sao Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Parana</option>
+                </optgroup>
+            </select>
+a tag select ira abrir um seletor, e nesse seletor nos iremos adicionar as opções usando o option e inserindo texto nele
+para realizar um agrupamento das options, usamos o optgroup, como visto acima
+https://app.tabnine.com/signup <-- fazer
+também podemos criar um datalist no input
+ex
+<form action="">
+            <p>
+                <label for="telefone">telefone</label>
+                <input type="tel" name="telefone" id="telefone" autocomplete="off" list="listtelefone" pattern="^([0-9]{2})?[0-9]{8,9}$">
+                <datalist id="listtelefone">
+                    <option value="27">(ES)</option>
+                    <option value="21">(RJ)</option>
+                    <option value="19">(SP)</option>
+                    <option value="31">(MG)</option>
+                </datalist>
+            </p>
+            <input type="submit" value="Enviar">
+        </form> 
+também podemos fazer com input:text da mesma forma
+-------O ID DO INPUT *TEM* QUE SER DIFERENTE DO ID DA DATALIST--------

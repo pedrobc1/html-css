@@ -40,5 +40,19 @@
         </p>
         <input type="submit" value="Enviar">
     </form>
+       <form action="">
+            <p>
+                <label for="telefone">telefone</label>
+                <input type="tel" name="telefone" id="telefone" autocomplete="off" list="listtelefone" pattern="^([0-9]{2})?[0-9]{8,9}$">
+                <datalist id="listtelefone">
+                    <option value="27">(ES)</option>
+                    <option value="21">(RJ)</option>
+                    <option value="19">(SP)</option>
+                    <option value="31">(MG)</option>
+                </datalist>
+            </p>
+            <input type="submit" value="Enviar">
+        </form> 
+
 </body>
 </html>
