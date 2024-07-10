@@ -1,0 +1,8 @@
+serve para adaptar o formato do site em determinadas telas
+celular
+pc
+tablet
+tv
+ou ate mesmo o site impresso, como em jornais
+
+sao formas diferentes de apresentar o conteudo de melhor forma
