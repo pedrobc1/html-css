@@ -1,0 +1,7 @@
+inicie criando mais styles, um para cada tipo de tela
+    <link rel="stylesheet" href="telastyle.css" media="screen">
+    <link rel="stylesheet" href="impressostyle.css" media="print">
+media= screen para tela
+media= print para imprimir
+
+ai em cada style vc vai adaptar para oque voce precisa
