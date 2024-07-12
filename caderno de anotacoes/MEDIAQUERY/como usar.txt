@@ -5,3 +5,57 @@ media= screen para tela
 media= print para imprimir
 
 ai em cada style vc vai adaptar para oque voce precisa
+
+outro ex
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retratostyle.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagemstyle.css" media="screen and (orientation: landscape)">
+    <title>media query</title>
+
+no exemplo acima, criamos 1 css geral com informacoes presentes nos dois(o mesmo para os dois)
+<link rel="stylesheet" href="estilos/style.css" media="all">
+1 css para telas em modo retrato (foto e ancoramento diferentes)
+<link rel="stylesheet" href="estilos/retratostyle.css" media="screen and (orientation: portrait)">
+1 css para telas em modo paisagem (foto e ancoramento diferentes)
+<link rel="stylesheet" href="estilos/paisagemstyle.css" media="screen and (orientation: landscape)">
+criei uma pasta de estilos e coloquei os 3 dentro da pasta para organizar
+é importante colocar o tipo de media type para que o media query funcione
+media="all" para todos os tipos de media
+media="screen and (orientation: portrait)" para telas em MODO RETRATO
+media="screen and (orientation: landscape)" para telas em MODO LANDSCAPE OU PAISAGEM
+
+we can do the separation of the different styles for each screen using style on <head>:
+<style>
+        @charset "UTF-8";
+/*configuracoes gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding: 10px;
+}
+}
+@media screen and (orientation: landscape) {
+
+}
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
+}
+@media screen and (orientation: landscape) <-- here we determine the type of media and the orientation without using link:css {
+/*portrait*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    </style>
+
+we can create another css file and declare the type of media in only onde css file
+i dont like this method because in other big projects, the code may be desorganized.
+the code in the situation above should be the same that i just paste some lines above.

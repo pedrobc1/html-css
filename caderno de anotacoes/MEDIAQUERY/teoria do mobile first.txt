@@ -1,0 +1,10 @@
+instead coding the whole website for pcs first and reduce the same for the mobile version, we should make the website for the mobile first, and then build for the computer
+
+
+the mobile website will be the parent style, like we can see below
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all"> <--mobile version
+    <link rel="stylesheet" href="estilos/mediaquerystyle.css">

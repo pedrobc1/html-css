@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid black;
+        color: black !important;
+    }
+    main h1 {
+        text-shadow: none;
+    }
+    body::after{
+        content: 'Essa impressao foi feita por meio do site www.pedrolindo.com.br';
+        margin-bottom: 0px;
+    }
+    img#print{
+        display: inline-block;
+    }
+    img#cel{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#print{
+        display: none;
+    }
+    img#tab{
+        display: inline-block;
+    }
+    img#cel{
+        display: none;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#pc{
+        display: inline-block;
+    }
+    img#print{
+        display: none;
+    }
+    img#tab{
+        display: none;
+    }
+    img#cel{
+        display: none;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#tv{
+        display: inline-block;
+    }
+    img#pc{
+        display: none
+    }
+    img#print{
+        display: none;
+    }
+    img#tab{
+        display: none;
+    }
+    img#cel{
+        display: none;
+    }
+}

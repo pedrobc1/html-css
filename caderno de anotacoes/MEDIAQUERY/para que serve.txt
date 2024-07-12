@@ -6,3 +6,6 @@ tv
 ou ate mesmo o site impresso, como em jornais
 
 sao formas diferentes de apresentar o conteudo de melhor forma
+
+media queries sao media type+media features
+media feature e uma ferramenta para complementar as media queries
