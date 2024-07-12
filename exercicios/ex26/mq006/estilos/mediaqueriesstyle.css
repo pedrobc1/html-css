@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    nav#bigger{
+        display: inline-block;
+    }
+    nav#cel{
+        display: none;
+    }
+    i#menu{
+        display: none;
+    }
+}
