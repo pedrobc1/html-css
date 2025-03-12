@@ -13,6 +13,11 @@ margin-top/ margin-left/ margin-right: 100px;(ex) so funciona pra display block
 font-weight: 1000 ; - negrito forte
 
 border-radius: 10px; bordas arredondadas
+border-image -> voce pode colocar imagens na borda
+    border-image-source ai c coloca a url 
+    border-image-slice vc pode fatiar a imagem
+border-image
+
 
 box-shadow: 10px(primeiro parametro: quanto a sombra vai andar pro lado) 10px(segundo parametro: quanto a sombra vai andar pra baixo) 10px (terceiro parametro: o quanto a sombra vai espalhar) black (quarto parametro: a cor da sombra -- usar a cor do fundo, so que escurecer um pouco e botar um pouco de transparecia)       sombra bonita -> box-shadow: 6px 5px 23px -4px black;
 

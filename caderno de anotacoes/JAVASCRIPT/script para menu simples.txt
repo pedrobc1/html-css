@@ -1,0 +1,11 @@
+onclick="clickMenu()"
+<script>
+        function clickMenu(){
+            if (cel.style.display == 'block') {
+                cel.style.display = 'none'
+            } else {
+                cel.style.display = 'block'
+        }
+    }
+    </script>
+onclick means when clicked

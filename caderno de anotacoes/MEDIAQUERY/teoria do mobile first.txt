@@ -8,3 +8,6 @@ the mobile website will be the parent style, like we can see below
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css" media="all"> <--mobile version
     <link rel="stylesheet" href="estilos/mediaquerystyle.css">
+
+its common using box sizing:border box in mobile version*******
+
