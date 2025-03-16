@@ -1,0 +1,8 @@
+transform: translate(1px 1px) aqui ele vai literalmente se mover
+ou vc pode criar uma borda ao clicar
+border 1px white
+
+(tudo isso no hover)
+
+para ocorrer de forma suave (da pra fazer com a borda tambem)
+transition transform 1s border 1s
