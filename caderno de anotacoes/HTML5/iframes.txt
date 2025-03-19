@@ -21,7 +21,9 @@ o problema do código acima e: quando abrimos a pagina, o iframe inicia em branc
 
 para resolver isso podemos colocar uma das paginas no src do iframe (normal) ou:
 <iframe srcdoc="<h1>Escolha uma das opcoes acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, atque pariatur blanditiis enim</p> " frameborder="0" name="iframe">
-usar o srcdoc para colocar uma mensagem que ficara exibida ate que o usuário interaja com o conteudo
+usar o srcdoc para colocar uma mensagem que ficara exibida ate que o usuário interaja com o conteúdo
+
+posso usar o srcdoc para colocar alguma cisa que não sejam as paginas que aparecerão no iframe
 
 como tornar iframes mais seguros
 para evitar que sites indesejados tenham acesso aos dados do seu usuário, existes algumas medidas que podem ser tomadas para melhorar a segurança do site

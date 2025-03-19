@@ -1,7 +1,7 @@
-Como criar formularios
+  Como criar formularios
 <form action="cadastro.php" ( este action define para que lugar os dados serao enviados) autocomplete:off (tira as sugestoes na hora de escrever) method="GET" ou "POST"  (get aparece as infos na url (usar quando os dados nao forem sensiveis / get so envia ate 3 mil letras) e post ele escode, mas ao entar no inspecionar da pra ver (podemos usar o post para enviar mais dados +3mil letras)>
        <p>
-<label for="Nome"  (o label cria uma relacao entre o input e o texto)  >Nome: </label>
+<label for="Nome"  (o label cria uma relacao entre o input e o texto-- no label vai o id)  >Nome: </label>
 <input type="text" name="Nome" id="Nome">
 	</p>
         <p>
@@ -10,6 +10,11 @@ Como criar formularios
 	</p>
         <input type="submit" value="Enviar">
     </form>
+
+QUANDO USAR ID vs NAME
+name - php e html
+id - javascript
+
 (usar método post
 input:color inserir cor
 input:file inserir arquivo
@@ -36,7 +41,7 @@ required : obriga o usuario a colocar algum dado
 maxlength : deermina um maximo de letras
 minlength : minimo de letras
 min e max : mínimo e maximo para números
-step : de quanto em quanto para numeros
+step : de quanto em quanto para números
 value : valor pre definido (retira o placeholder)
 size : determina a quantidade de caracteres que vao APARECER na caixa
 placeholder : coloca uma frase para ajudar o usuario que some ao comecar a digitar
