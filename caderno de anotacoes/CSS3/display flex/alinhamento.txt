@@ -1,0 +1,57 @@
+we'll always use the display flex in the parent element
+      parent  .conteiner{
+            display: flex;
+            background-color: grey;
+        }
+       child .item{
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(46, 153, 60);
+            flex: auto;
+            text-align: center;
+        }
+the flex auto that we see in the child will turn the items into fluid div that will take all the parent width 
+
+parent codes------------------------
+
+flex direction
+it will determine the direction that the childs will take
+flex direction row ----->
+flex direction row reverse <------
+flex direction column: from top to bottom
+all of it has his reverse option
+
+axis (eixos)
+
+main axis ------->
+cross axis from top to bottom
+each axis has their start and end. we can imagine it like a cartesian plan
+
+the reverse of the flex directions will reverse the axis directions
+the main axis will be always disposed by the start of the items.
+
+flex wrap
+it determines the behavior of the parent : if it will wrap or not
+flex wrap, by default, will come as nowrap
+flex wrap: wrap - it will wrap in the direction of the cross axis
+flex wrap: wrap reverse - it will wrap in the opposite direction of the cross axis
+flex flow is the shorthand = flex direction + flex wrap
+
+justify content
+it will align the items in the main axis
+flex-start - the first item will stick to the main start
+flex-end - the first item will stick to the main end
+center - the items will be disposed in the center of the main axis
+space-between - the items will be disposed equally in the main axis : the first item in the main start and the last item in the main end
+space-evenly - the items will be disposed equally in the mais axis : before and after the items we will have the same spacing
+space-around - the items have something like a 'margin' on their sides, so in the main start we have the spacing of only one 'margin', and between the items we have two 'margin' : one of each item
+
+align-items
+it will align the items in the cross axis
+stretch - is the default value. it will stretch the items in the cross axis
+flex start - the first item will stretch to the cross start
+flex end - 
+
+child codes--------------------
+flex: auto - the child will fill all the size of the div
+when you use the flex auto and the flex wrap togheter, the child will only wrap when there is no more space for the div content
