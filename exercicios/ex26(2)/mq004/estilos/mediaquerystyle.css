@@ -1,0 +1,46 @@
+@charset "utf-8";
+@media print{
+    body{
+        background-image: url(../../imagens/back-print.jpg);
+    }
+    main #tablet, #phone, #pc, #tv{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url(../../imagens/back-tablet.jpg);
+    }
+    main #tablet{
+        display: block;
+    }
+    main #phone{
+        display: none;
+    }
+        
+    
+}
+@media only screen and (min-width: 992px){
+    body{
+        background-image: url(../../imagens/back-pc.jpg);
+    }
+    main #pc{
+        display: block;
+    }
+    main #tablet{
+        display: none;
+    }
+        
+}
+@media only screen and (min-width: 1200px){
+    body{
+        background-image: url(../../imagens/back-tv.jpg);
+    }
+    main #tv{
+        display: block;
+    }
+    main #pc{
+        display: none;
+    }
+    
+}
