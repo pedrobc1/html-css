@@ -8,14 +8,15 @@
         .conteiner{
             display: flex;
             background-color: grey;
-            flex-direction: column-reverse;
+            flex-direction: row nowrap;
+
         }
         .item{
             background-color: black;
             color: white;
             border: 1px solid rgb(46, 153, 60);
             text-align: center;
-            padding: 10px;
+            flex: auto;
         }
         /*ex 003*/
         .conteiner2{
@@ -56,6 +57,14 @@
 <body>
     /*ex 002*/
     <div class="conteiner">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
         <div class="item">a</div>
         <div class="item">b</div>
         <div class="item">c</div>

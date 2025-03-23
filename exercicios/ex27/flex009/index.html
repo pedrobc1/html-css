@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .conteiner{
+            display: flex;
+            background-color: grey;
+            flex-flow: row nowrap;
+            align-items: flex-start;
+            height: 500px;
+        }
+        .item{
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(46, 153, 60);
+            text-align: center;
+            flex-basis: 300px;
+            flex-grow: 1;
+        }
+        #i1{
+            flex-grow: 0;
+            flex-shrink: 2;
+        }
+        #i2{
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+        #i3{
+            flex-grow: 4;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    /*ex 009*/
+    <div class="conteiner">
+        <div class="item" id="i1">a</div>
+        <div class="item" id="i2">b</div>
+        <div class="item" id="i3">c</div>
+</body>
+</html>

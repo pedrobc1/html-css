@@ -49,9 +49,67 @@ space-around - the items have something like a 'margin' on their sides, so in th
 align-items
 it will align the items in the cross axis
 stretch - is the default value. it will stretch the items in the cross axis
-flex start - the first item will stretch to the cross start
-flex end - 
+flex start - the first item will stick to the cross start
+flex end - the first item will stick to the cross end
+center - the items will be disposed in the center of the cross axis
+we only have these options in align items, but there other properties that can handle the spacing in the cross axis
+
+align-content
+it will align the items in the cross axis WHEN THEYRE PACKAGED
+stretch - is the default value . it will brake the cross axis equally in the amount of lines wrapped and stretch the items into these divisions
+flex-start - the items will stick to the cross start
+flex-end - the items will stick to the cross end
+center - the items will be disposed in the center of the cross axis
+space-between - the items will be disposed equally in the cross axis : the first item in the cross start and the item that wrapped in the cross end
+space-evenly - the items will be disposed equally in the cross axis : before and after the items we will have the same spacing
+space-around - the items have something like a 'margin' on their sides, so in the cross start we have the spacing of only one 'margin', and between the items we have two 'margin' : one of each item. It depends on how much wraps we have
 
 child codes--------------------
-flex: auto - the child will fill all the size of the div
-when you use the flex auto and the flex wrap togheter, the child will only wrap when there is no more space for the div content
+order - every item has order 0. the items with the lower order will be showed first
+
+align-self - ii will align each item in the cross axis
+auto - it will inherit from his parent
+flex-start, flex-end, center, stretch
+they will work same as align items, but in each item, so we can have many alignments in each items
+
+flex-basis
+it will determine the size of the item
+auto - default. the size of the item will be adapted by the size of the content
+200px (example) the items will have 200px 
+theyre flexible, so if there aren't space for it, the items will reduce equally (only nowrap)
+
+can it shrink? can it grow?
+default: flex-shrink:1 flex-grow:0
+flex-shrink
+it defines if the item can shrink or not
+1 - can
+0 - cannot (can cause overflow)
+flex-grow
+it defines if the item can grow or not
+1- can
+0- cannot
+you can apply in each item
+if i apply other higher values on it, it will shrink or grow proportionally
+example:
+item1-flexgrow 1
+item2-flexgrow 2
+the item2 will grow 2 times more than the item1, because 2 is two time bigger than 1, so if i want a third item that grows two times more than the item2, i have to attribute the value 4, because four is two times bigger than 2:
+item1-flexgrow 1
+item2-flexgrow 2
+item3-flexgrow 4
+this will work equally for flexshrink
+
+flex (shorthand)
+item1 (without flex)
+flex basis 150px
+flexshrink 3
+flexgrow 2
+item1 (with flex shorthand)
+flex: 2(grow) 3(shrink) 150px(basis);
+auto - the child will fill all the size of the div
+when you use the flex auto and the flex wrap togheter, the child will only wrap when there is no more space for the div content or it beat the flex basis
+flex: 0 1 auto = initial (default)
+flex: 0 0 auto = none (it dont grow or shrink, and the size is adapted for the content)
+flex: 1 1 auto = auto (it grows and shrinks)
+flex: 3 1 auto = 3 (if the flex comes only with a number, it means that the flex grow of this element is 3. the other values are 
+standardized

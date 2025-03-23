@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .conteiner{
+            display: flex;
+            background-color: grey;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            height: 500px;
+        }
+        .item{
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(46, 153, 60);
+            text-align: center;
+            padding: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    /*ex 007,008*/
+    <div class="conteiner">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item" style=" order: -1; align-self: center;">c</div>
+        <div class="item" style="align-self: flex-end;">d</div>
+        <div class="item" style="align-self: stretch;">e</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+    </div>
+</body>
+</html>
